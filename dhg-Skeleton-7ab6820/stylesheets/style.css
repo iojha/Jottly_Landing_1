@@ -1,20 +1,19 @@
-/* logo */
-
-.logo {
-  float: left;
+header {
+  padding: 2% 2%;
 }
 
+header.logo {
+  display: inline-block;
+  float: left;
+  }
 
 /*nav bar*/
 
-.header {
-  padding: 20 0px;
-}
-
-.nav {
-  display:inline-block;
-  padding: 10 10px;
-  float: right;
+header.nav li {
+  display: inline-block;
+  padding: 0 8px 4px 8px;
+  float:right;
+  position: relative;
 }
 
 /* end nav bar */
@@ -24,6 +23,7 @@
 .main {
   background-image: url('../images/mainImage.png');
   background-size: cover;
+  clear: both;
   background-position: center center;
   min-height: 500px;
   text-align: center;
@@ -109,3 +109,4 @@ body {
 .testimonial {
   padding: 40px 0px;
 }
+
