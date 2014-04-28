@@ -1,0 +1,145 @@
+ /*Global Styles*/
+ 
+h1 {
+  font-family: "Aktiv Grotesk", sans-serif;
+  font-size: 28px;      
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Aktiv Grotesk", sans-serif;
+  font-size: 24px;
+  color:#fff;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Aktiv Grotesk", sans-serif;
+  font-size: 18px;
+  color:#252525;
+  font-weight: bold;
+  text-align:center;
+}
+
+h4 {
+  font-family: "Aktiv Grotesk", sans-serif; ; 
+  color: #fff;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+p {
+  font-family: "Clavo", serif;
+  color: #252525;
+  size: 14px;
+}
+
+
+/*Header Styles*/
+
+header {
+   padding: 2% 2%;
+}
+ 
+header .logo {
+   display: inline-block;
+   float: left;
+   padding: 0 0 10px 0;
+   }
+
+header .nav li {
+   display: inline-block;
+   padding: 40px 10px 10px 10px;
+   float: right;
+}
+  
+/*Main Banner*/
+   
+.hero {
+  background-image: url('../images/mainImage.png');
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  min-height: 500px;
+  text-align: center; padding: 5%;
+  font-color: #fff;
+  }
+ 
+.hero p {
+  padding: 0 10% ;
+  font-size: 16px;
+  color: #fff;
+  }
+
+/*End Main Banner */
+
+
+/*About Module*/
+
+.about {
+  padding: 5% 5%;
+ }
+ 
+.about p {
+  font-family: "Aktiv Grotesk", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Features Module*/
+
+  .features {
+   background-color: #d7d7d7;
+   padding: 5% 0;
+   margin: 0 0 7% 0;
+   text-align: center;
+  }
+
+  .feature h2 {
+    color: #1273bd;
+  }
+
+/*Testimonial Module*/
+
+    p.quoter {
+  font-style: italic;
+  }
+
+   .testimonial .quotee {
+    float: right;
+    background-image: url('../images/testimonial.png');
+    background-repeat: none;
+    background-position: center;
+    }
+
+/* Footer */
+
+footer {
+  background-color: #1273bd;
+  padding: 3% 2%;
+  text-align: center;
+  }
+
+footer h3 {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+footer a {
+  font-weight: normal;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
+
+
+   
+ 
+ 
+ 
