@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Header Styles*/
 
 header {
@@ -16,98 +17,70 @@ header.nav li {
   padding: 8px 8px;
   float:right;
   }
+=======
+.container {
 
-/* end nav bar */
-
-/*Main Banner*/
-
-.main {
-  background-image: url('../images/mainImage.png');
-  background-size: cover;
-  clear: both;
-  background-position: center center;
-  min-height: 500px;
-  text-align: center;
-  padding: 30px 30px;
-  }
-
-/*End Main Banner */
-
-/* Text Description of Jottly */
-
-.description {
-  padding: 30px 50px;
 }
+>>>>>>> 7438095cf18e7548e64288ff0067e79007c662c3
 
-/* Features (with icons) area styling */
 
-.features {
-  background-color: #d7d7d7;
-  padding: 30px 0px;
-  text-align: center;
-}
-
-/* Footer - Mobile */
-
-.mobile {
-  padding: 10 10px;
-}
-
-/*Font Styling */
+/* Global Styles */
 
 h1 {
-  font-family: "Aktiv Grotesk", sans-serif;
-  font-size: 35px;      
-  color: #fff;
-  font-weight: bold;
+
 }
 
 h2 {
-  font-family: "Aktiv Grotesk", sans-serif;
-  font-size: 24px;
-  color:#fff;
-  font-weight: bold;
+
 }
 
 h3 {
-  font-family: "Aktiv Grotesk", sans-serif;
-  font-size: 18px;
-  color:#252525;
-  font-weight: bold;
-  text-align:center;
+
 }
 
-h3.subheading {
-  color: #1273bd;
-  }
-
-h4 {
-  font-family: "Aktiv Grotesk", sans-serif; ; 
-  color: #fff;
-  font-size: 14px;
-  font-weight: lighter;
-  text-align: left;
+header.main {
+  position: relative; 
 }
 
-p {
-  font-family: "Clavo", serif;
-  color: #252525;
-  size: 14px;
+header.main nav ul {
+  position: absolute;
+  right: 10px; bottom: 10px;
+  padding: 0; margin: 0;
 }
 
-/* Other Styling */
-
-body {
-    background: #fff;
+header.main nav ul li {
+  display: inline-block;
+  padding: 0; margin: 0;
 }
 
-/* Footer */
-
-#footer {
-  background-color: #1273bd;
+.main .module {
+  background-color: pink;
+  margin: 0 0 20px 0;
 }
 
-.testimonial {
-  padding: 40px 0px;
+/* Module Styles */
+
+.main .module h1,
+.main .module h2 {
 }
+
+
+/* Page Styles */
+
+.main .hero.module {
+  background-color: green;
+}
+
+.main .about.module {
+  background-color: blue;
+}
+
+.main .features.module {
+  background-color: green;
+}
+
+.main .testimonials.module {
+  background-color: blue;
+}
+
 
